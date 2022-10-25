@@ -9,7 +9,7 @@ Food's stats are determined by food's nutrition values like below:
 
 health=food's energy (kcal)
 attack power=food's carbohydrates (g/100g)
-defence=food's proteins (how many percent (%) there is protein in 100 g food)
+defence=food's proteins (g/100g) //Food objects defense is taken into account to fight in percentages.
 delay=fat + carbonhydrates + proteins (tells how fast food can attack)
 
 When the stats are found the program shows how foods are fighting and finally
